@@ -1,6 +1,6 @@
 # Job-Scraping Web Application: Project Overview
 
-This document outlines the core and advanced features for a comprehensive job-scraping web application designed to provide users with a centralized platform for finding and managing their job search.
+This document outlines the core and advanced features for a comprehensive job-scraping web application designed to provide users with a centralized platform for finding and managing their job search. Specifically, this website only collects data from jobs in Singapore.
 
 ## A. Core Features
 
@@ -13,8 +13,9 @@ These features represent the essential functionalities that will be implemented 
     *   Company
     *   Location
     *   Date Posted
+    *   Salary
     *   Job Summary (brief excerpt)
-*   **Detailed Job View:** Users can access a dedicated view (separate page or modal) for the full job description.
+*   **Detailed Job View:** Users can access a dedicated view (separate page) for the full job description.
 *   **Source Link:** Each job listing includes a direct link to the original posting on the source website.
 
 ### Search Functionality
@@ -23,20 +24,23 @@ These features represent the essential functionalities that will be implemented 
     *   Job Title
     *   Company Name
     *   Required Skills
-*   **Multi-Source Aggregation:** The application will search and retrieve listings from multiple job boards and company websites.
+    *   Level of Experience
 
 ### Filtering and Sorting
 
 *   **Comprehensive Filtering:**  Refine search results with various filters:
-    *   **Location:** Specify city, state, or country.
     *   **Date Posted:** Choose recent postings (e.g., last 24 hours, last 7 days).
-    *   **Job Type:** Filter by full-time, part-time, contract, or internship positions.
+    *   **Job Type:** Filter by full-time, part-time, or internship positions.
     *   **Company:**  Show jobs from a specific company
     *   **Salary Range:** Narrow down options based on salary expectations (where available).
 *   **Flexible Sorting:** Arrange search results according to user preferences:
     *   Relevance (to search query)
     *   Date (most recent first)
     *   Salary (highest to lowest, or lowest to highest)
+ 
+### Data Analytics
+
+*   **Bell Curve (Salary):** Shows the salary distribution for the selected role 
 
 ## B. Advanced Features (Optional)
 
@@ -61,10 +65,6 @@ These features can be implemented in later stages to enhance the user experience
     *   Number of jobs by location
     *   Job openings by industry
     *   Salary range distributions
-
-### Resume/Profile Builder
-
-*   **Integrated Resume Creation:**  Enable users to create and store resumes or professional profiles within the application.
 
 ### Company Pages
 
